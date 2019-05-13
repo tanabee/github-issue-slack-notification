@@ -1,0 +1,7 @@
+{
+  "webhook_url": "https://hooks.slack.com/services/[ slack incoming webhook ]",
+  "validation": {
+    "action": "opened",
+    "labelName": "bug-report"
+  }
+}
