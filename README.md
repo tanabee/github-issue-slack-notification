@@ -1,6 +1,6 @@
 ## About
 
-It can notice that issue created event on GitHub to Slack.
+It notifies GitHub issue created event to Slack.
 
 ## Environment
 
@@ -26,5 +26,5 @@ It can notice that issue created event on GitHub to Slack.
 ## Deploy Command
 
 ```
-$ gcloud functions deploy noticeGithubIssueToSlack --trigger-http --runtime=nodejs8
+$ gcloud functions deploy notifyGithubIssueToSlack --trigger-http --runtime=nodejs8
 ```

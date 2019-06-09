@@ -7,7 +7,7 @@ const secret = require('./config.json');
  * @param {Object} req Cloud Function request context.
  * @param {Object} res Cloud Function response context.
  */
-exports.noticeGithubIssueToSlack = (req, res) => {
+exports.notifyGithubIssueToSlack = (req, res) => {
 
   const body = req.body;
 

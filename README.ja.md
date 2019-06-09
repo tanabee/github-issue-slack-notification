@@ -26,5 +26,5 @@ GitHub の特定のラベルが付いた Issue を登録すると Slack に通�
 ## Deploy Command
 
 ```
-$ gcloud functions deploy noticeGithubIssueToSlack --trigger-http --runtime=nodejs8
+$ gcloud functions deploy notifyGithubIssueToSlack --trigger-http --runtime=nodejs8
 ```
